@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "@oxygen-ui/workspace",
-  "version": "0.1.0",
+  "name": "@oxygen-ui-experimental/workspace",
+  "version": "0.1.4",
   "description": "The Design System powering WSO2 products.",
   "author": "WSO2",
   "license": "Apache-2.0",
@@ -23,15 +23,18 @@
     "clean:lock-files": "pnpm rimraf -G **/**/package-lock.json && pnpm rimraf -G **/**/pnpm-lock.yaml && pnpm rimraf -G **/**/yarn.lock",
     "clean:node-modules": "pnpm rimraf -G **/**/node_modules && pnpm rimraf -G node_modules",
     "build": "nx run-many --target=build --parallel",
-    "build:docs": "pnpm --filter @oxygen-ui/react build-storybook && pnpm --filter @oxygen-ui/docs build",
+    "build:docs": "pnpm --filter @oxygen-ui-experimental/react build-storybook && pnpm --filter @oxygen-ui-experimental/docs build",
     "lint": "nx run-many --target=lint --parallel",
     "lint:es": "nx run-many --target=lint:es --parallel",
     "lint:styles": "nx run-many --target=lint:styles --parallel",
+    "semantic-release": "semantic-release",
     "test": "nx run-many --target=test --parallel",
     "typecheck": "nx run-many --target=typecheck --parallel"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
     "nx": "15.2.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "semantic-release": "^20.1.3"
   }
 }
