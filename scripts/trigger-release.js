@@ -17,8 +17,7 @@ const octokit = new Octokit({
       repo: 'oxygen-ui',
       tag_name: _tag,
       body: '## Release /n TBA',
-      draft: false,
-      discussion_category_name: 'Announcements',
+      draft: false
     });
   } catch (err) {
     // eslint-disable-next-line no-console
