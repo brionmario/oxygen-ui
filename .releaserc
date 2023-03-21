@@ -28,6 +28,6 @@
       }
     ]
   ],
-  "prepare": "pnpm recursive exec --if-present 'npm version ${nextRelease.version}'",
+  "prepare": "pnpm recursive exec --if-present 'npm version $npm_package_version'",
   "preset": "angular"
 }
