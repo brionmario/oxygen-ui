@@ -50,6 +50,8 @@ jobs:
         run: pnpm build
 
       - name: Create release notes
-        run: node scripts/trigger-release.js $(git describe --tags $(git rev-list --tags --max-count=1))
+        run: |
+          tag=`git describe --tags --abbrev=0`
+          node scripts/trigger-release.js $tag
         env:
           GITHUB_TOKEN: ${{ env.GH_TOKEN }}
