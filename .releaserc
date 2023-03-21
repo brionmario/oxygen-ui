@@ -1,4 +1,5 @@
 {
+  "extends": "semantic-release-monorepo",
   "branches": [
     "main"
   ],
@@ -10,13 +11,6 @@
     [
       "@semantic-release/git",
       {
-        "assets": [
-          "package.json",
-          "docs/package.json",
-          "examples/*/package.json",
-          "packages/*/package.json",
-          "CHANGELOG.md"
-        ],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
@@ -28,6 +22,5 @@
       }
     ]
   ],
-  "prepare": "pnpm recursive exec --if-present 'npm version $npm_package_version'",
   "preset": "angular"
 }
