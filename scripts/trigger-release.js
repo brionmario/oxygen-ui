@@ -1,4 +1,4 @@
-import { Octokit } from '@octokit/rest';
+const { Octokit } = require("@octokit/rest");
 
 const [, , /* node */ /* file */ tag] = process.argv;
 // eslint-disable-next-line no-console
