@@ -4,14 +4,14 @@ importers:
 
   .:
     specifiers:
+      '@abizzle/changesets-changelog-github': ^0.5.0-next.1
       '@abizzle/changesets-cli': 2.27.0-next.4
-      '@changesets/changelog-github': ^0.4.8
       '@octokit/rest': ^19.0.7
       nx: 15.2.1
       rimraf: ^3.0.2
     dependencies:
+      '@abizzle/changesets-changelog-github': 0.5.0-next.1
       '@abizzle/changesets-cli': 2.27.0-next.4
-      '@changesets/changelog-github': 0.4.8
       '@octokit/rest': 19.0.7
     devDependencies:
       nx: 15.2.1
@@ -440,6 +440,16 @@ packages:
     resolution: {integrity: sha512-x+wjKZpTAyPdW86tAHGTd8/6lX9n0ep74FycpYKTSzDpsrcDcb0+XVa2FbsrhN0ILpNt+BqGytNte0yZqaD0ZA==}
     dependencies:
       '@abizzle/changesets-types': 6.0.0-next.3
+    dev: false
+
+  /@abizzle/changesets-changelog-github/0.5.0-next.1:
+    resolution: {integrity: sha512-4C/SwgRPcuzfsA+zLi/PNxDAvkT7+oy/THdfnHYxbMpQf8qmcf0xSr+5pRIs/+iS4ZBJApzcW5eVNEJh6iSNFw==}
+    dependencies:
+      '@abizzle/changesets-types': 6.0.0-next.3
+      '@changesets/get-github-info': 0.5.2
+      dotenv: 8.6.0
+    transitivePeerDependencies:
+      - encoding
     dev: false
 
   /@abizzle/changesets-cli/2.27.0-next.4:
@@ -2019,16 +2029,6 @@ packages:
   /@bcoe/v8-coverage/0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
-
-  /@changesets/changelog-github/0.4.8:
-    resolution: {integrity: sha512-jR1DHibkMAb5v/8ym77E4AMNWZKB5NPzw5a5Wtqm1JepAuIF+hrKp2u04NKM14oBZhHglkCfrla9uq8ORnK/dw==}
-    dependencies:
-      '@changesets/get-github-info': 0.5.2
-      '@changesets/types': 5.2.1
-      dotenv: 8.6.0
-    transitivePeerDependencies:
-      - encoding
-    dev: false
 
   /@changesets/errors/0.1.4:
     resolution: {integrity: sha512-HAcqPF7snsUJ/QzkWoKfRfXushHTu+K5KZLJWPb34s4eCZShIf8BFO3fwq6KU8+G7L5KdtN2BzQAXOSXEyiY9Q==}
