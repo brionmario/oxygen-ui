@@ -2,7 +2,7 @@ const { Octokit } = require("@octokit/rest");
 
 const [, , /* node */ /* file */ tag] = process.argv;
 // eslint-disable-next-line no-console
-console.log('tag', tag);
+console.log('tag', tag.split("@")[2]);
 
 const octokit = new Octokit({
   auth: `token ${process.env.GITHUB_TOKEN}`,
