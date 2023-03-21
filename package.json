@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@changesets/changelog-github": "^0.4.8",
-    "@changesets/cli": "^2.26.0",
+    "@abizzle/changesets-cli": "2.27.0-next.4",
     "@octokit/rest": "^19.0.7"
   }
 }

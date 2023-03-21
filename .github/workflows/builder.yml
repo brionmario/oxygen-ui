@@ -70,7 +70,6 @@ jobs:
           publish: pnpm publish:packages
           version: pnpm version:packages
           commit: 'chore(release): version package versions 🦋'
-          createGithubReleases: false
         env:
           GITHUB_TOKEN: ${{ env.GH_TOKEN }}
           NPM_TOKEN: ${{ env.NPM_TOKEN }}
