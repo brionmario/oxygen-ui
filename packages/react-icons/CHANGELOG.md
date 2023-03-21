@@ -1,5 +1,11 @@
 # @oxygen-ui-experimental/react-icons
 
+## 0.1.5
+
+### Patch Changes
+
+- b9f67e6: This is the fifth experimental release.
+
 ## 0.1.4
 
 ### Patch Changes

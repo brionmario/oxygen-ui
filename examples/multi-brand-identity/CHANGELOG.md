@@ -1,5 +1,14 @@
 # @oxygen-ui-experimental/multi-brand-identity-example
 
+## 0.1.5
+
+### Patch Changes
+
+- b9f67e6: This is the fifth experimental release.
+- Updated dependencies [b9f67e6]
+  - @oxygen-ui-experimental/primitives@0.1.5
+  - @oxygen-ui-experimental/react@0.1.5
+
 ## 0.1.4
 
 ### Patch Changes
