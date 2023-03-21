@@ -1,5 +1,14 @@
 # @oxygen-ui-experimental/react
 
+## 0.1.2
+
+### Patch Changes
+
+- 27f344e: This is the third experimental release.
+- Updated dependencies [27f344e]
+  - @oxygen-ui-experimental/react-icons@0.1.2
+  - @oxygen-ui-experimental/primitives@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes
