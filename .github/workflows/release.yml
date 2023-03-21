@@ -56,10 +56,12 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          title: 'chore(release): version packages'
+          title: 'chore(release): update package versions 🦋'
           publish: pnpm publish:packages
           version: pnpm version:packages
-          commit: 'chore(release): version packages 🦋'
+          commit: 'chore(release): version package versions 🦋'
+          createGithubReleases: false
+          setupGitUser: false
         env:
           GITHUB_TOKEN: ${{ env.GH_TOKEN }}
           NPM_TOKEN: ${{ env.NPM_TOKEN }}
