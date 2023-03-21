@@ -3,9 +3,7 @@
 name: 🚀 Release
 
 on:
-  push:
-    tags:
-      - '*'
+  workflow_dispatch:
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
