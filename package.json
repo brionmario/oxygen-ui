@@ -27,10 +27,16 @@
     "lint": "nx run-many --target=lint --parallel",
     "lint:es": "nx run-many --target=lint:es --parallel",
     "lint:styles": "nx run-many --target=lint:styles --parallel",
+    "release": "auto shipit",
     "test": "nx run-many --target=test --parallel",
     "typecheck": "nx run-many --target=typecheck --parallel"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "^10.43.0",
+    "@auto-it/conventional-commits": "^10.43.0",
+    "@auto-it/first-time-contributor": "^10.43.0",
+    "@auto-it/released": "^10.43.0",
+    "auto": "^10.43.0",
     "nx": "15.2.1",
     "rimraf": "^3.0.2"
   }
