@@ -2,7 +2,8 @@ const { Octokit } = require("@octokit/rest");
 
 const [, , /* node */ /* file */ tag] = process.argv;
 // eslint-disable-next-line no-console
-console.log('tag', tag.split("@")[2]);
+const _tag = tag.split("@")[2];
+console.log('tag', _tag);
 
 const octokit = new Octokit({
   auth: `token ${process.env.GITHUB_TOKEN}`,
@@ -14,9 +15,9 @@ const octokit = new Octokit({
     await octokit.repos.createRelease({
       owner: 'brionmario',
       repo: 'oxygen-ui',
-      tag_name: tag,
+      tag_name: _tag,
       body: '## Release /n TBA',
-      draft: true,
+      draft: false,
       discussion_category_name: 'Announcements',
     });
   } catch (err) {
