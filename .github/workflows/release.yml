@@ -56,7 +56,7 @@ jobs:
 
       - name: 📢 Release & Publish
         id: release-and-publish
-        run: pnpm semantic-release
+        run: pnpm release
         env:
           NPM_TOKEN: ${{ env.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ env.GH_TOKEN }}
