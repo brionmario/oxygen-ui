@@ -1,5 +1,12 @@
 
 
+## [1.2.1](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.2.0...oxygen-ui@1.2.1) (2023-03-22)
+
+
+### Bug Fixes
+
+* **release:** experiment with release ([9e98210](https://github.com/wso2/oxygen-ui/commit/9e9821067061567a89b01baaa5e53fa862d26dd3))
+
 # [1.2.0](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.1.1...oxygen-ui@1.2.0) (2023-03-22)
 
 
