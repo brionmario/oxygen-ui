@@ -15,8 +15,7 @@
     },
     "@release-it/bumper": {
       "out": [
-        "package.json",
-        "packages/logger/package.json"
+        "**/!(node_modules)/**/package.json"
       ]
     }
   },
