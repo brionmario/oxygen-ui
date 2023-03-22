@@ -45,7 +45,6 @@ jobs:
         id: get-pnpm-cache-dir
         run: |
           echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
-
       - name: 🧩 Install Dependencies
         id: install-dependencies
         run: pnpm install
@@ -57,6 +56,8 @@ jobs:
       - name: 📢 Release & Publish
         id: release-and-publish
         run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
           npm run release -- --ci
         env:
