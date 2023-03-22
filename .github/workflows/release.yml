@@ -57,7 +57,7 @@ jobs:
       - name: 📢 Release & Publish
         id: release-and-publish
         run: |
-          pnpm release --ci
+          pnpm release --ci --npm.pnpm --npm.publishArgs="-r"
         env:
           NPM_TOKEN: ${{ env.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ env.GH_TOKEN }}
