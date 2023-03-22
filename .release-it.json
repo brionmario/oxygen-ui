@@ -10,7 +10,9 @@
       "preset": "angular",
       "infile": "CHANGELOG.md"
     },
-    "@release-it-plugins/workspaces": true
+    "@release-it-plugins/workspaces": {
+      "dependencyUpdates": []
+    }
   },
   "npm": {
     "allowSameVersion": true,
