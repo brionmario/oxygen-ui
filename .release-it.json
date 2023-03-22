@@ -1,19 +1,17 @@
 {
   "git": {
     "tagName": "oxygen-ui@${version}",
-    "commitMessage": "chore(release): update package versions to v${version} 🎉",
+    "commitMessage": "release: cut the v${version} release",
     "tagAnnotation": "Release ${tagName}"
   },
   "github": {
-    "release": true
+    "release": true,
+    "releaseName": "oxygen-ui@${version}"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
       "preset": "angular",
       "infile": "CHANGELOG.md"
-    },
-    "@release-it-plugins/workspaces": {
-      "dependencyUpdates": []
     }
   },
   "npm": {
