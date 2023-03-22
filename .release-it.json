@@ -18,6 +18,7 @@
   },
   "npm": {
     "pnpm": true,
+    "versionArgs": ["--allow-same-version", "--workspaces-update=false"],
     "publishArgs": ["-r", "--access", "public"],
     "allowSameVersion": true,
     "skipChecks": true,
