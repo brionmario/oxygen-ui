@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.1](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.4.0...oxygen-ui@1.4.1) (2023-03-22)
+
+
+### 🐛 Bug Fixes
+
+* **logger:** this is a bug fix ([6e5eaef](https://github.com/wso2/oxygen-ui/commit/6e5eaefdc642b2a87a1a3092f7e2ccb1cfffdea7))
+
 # [1.4.0](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.3.1...oxygen-ui@1.4.0) (2023-03-22)
 
 
