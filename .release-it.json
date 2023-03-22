@@ -1,6 +1,8 @@
 {
   "git": {
-    "commitMessage": "chore(release): update package versions to v${version}"
+    "tagName": "oxygen-ui@${version}",
+    "commitMessage": "chore(release): update package versions to v${version} 🎉",
+    "tagAnnotation": "Release ${tagName}"
   },
   "github": {
     "release": true
@@ -15,6 +17,8 @@
     }
   },
   "npm": {
+    "pnpm": true,
+    "publishArgs": ["-r", "--access", "public"],
     "allowSameVersion": true,
     "skipChecks": true,
     "publish": true
