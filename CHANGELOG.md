@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.1](https://github.com/wso2/oxygen-ui/compare/v1.11.0...v1.11.1)
+<br> *Released on: 2023-03-22*
+
+### What's Changed
+
+#### `@oxygen-ui/logger`
+* **logger:**  this is a fix in logger ([5bb603a](https://github.com/wso2/oxygen-ui/commit/5bb603a2d25bd4d5f03077298c535fb6cced968f))
+
 # [1.11.0](https://github.com/wso2/oxygen-ui/compare/v1.10.0...v1.11.0)
 <br> *Released on: 2023-03-22*
 
