@@ -12,6 +12,12 @@
     "@release-it/conventional-changelog": {
       "preset": "angular",
       "infile": "CHANGELOG.md"
+    },
+    "@release-it/bumper": {
+      "out": [
+        "package.json",
+        "!(node_modules)/**/package.json",
+      ]
     }
   },
   "npm": {
@@ -19,8 +25,7 @@
     "versionArgs": ["--workspaces-update=false"],
     "publishArgs": ["-r", "--access", "public"],
     "allowSameVersion": true,
-    "skipChecks": true,
-    "publish": true
+    "skipChecks": true
   },
   "publishConfig": {
     "access": "public",
