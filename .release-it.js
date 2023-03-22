@@ -14,23 +14,8 @@ module.exports = {
   plugins: {
     "@release-it/conventional-changelog": {
       infile: "CHANGELOG.md",
-      header: "# Changelog",
-      preset: {
-        name: "conventionalCommits",
-        types: [
-          {
-            type: "feat",
-            section: "✨ Features"
-          },
-          {
-            type: "fix",
-            section: "🐛 Bug Fixes"
-          },
-          {
-            type: "docs",
-            section: "📚 Documentation"
-          }
-        ]
+      writerOpts: {
+        groupBy: "scope"
       }
     },
     "@release-it-plugins/workspaces": true
