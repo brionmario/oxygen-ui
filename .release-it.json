@@ -13,12 +13,7 @@
       "preset": "angular",
       "infile": "CHANGELOG.md"
     },
-    "@release-it/bumper": {
-      "out": [
-        "package.json",
-        "!(node_modules)/**/package.json"
-      ]
-    }
+    "@release-it-plugins/workspaces": true
   },
   "npm": {
     "pnpm": true,
