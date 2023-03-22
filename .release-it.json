@@ -14,7 +14,7 @@
   },
   "npm": {
     "skipChecks": true,
-    "publish": false
+    "publish": true
   },
   "publishConfig": {
     "access": "public",
