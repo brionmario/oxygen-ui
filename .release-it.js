@@ -24,7 +24,16 @@ module.exports = {
         headerPartial: fs.readFileSync(path.join(__dirname, 'release', 'templates', 'header.hbs'), 'utf-8'),
         groupBy: 'scope',
         mainTemplate: fs.readFileSync(path.join(__dirname, 'release', 'templates', 'template.hbs'), 'utf-8'),
-        commitGroupsSort: 'title',
+        commitGroupsSort: (a, b) => {
+          // push `other` commit group to the bottom.
+          if (a.title === false && b.title !== false) {
+            return 1;
+          }
+          if (a.title !== false && b.title === false) {
+            return -1;
+          }
+          return 0;
+        },
         commitsSort: ['type', 'shortDesc'],
       },
     },
