@@ -1,4 +1,9 @@
-{
+const fs = require('fs');
+const path = require('path');
+
+const commitTemplate = fs.readFileSync(path.join(__dirname, 'commit.hbs'), 'utf-8');
+
+module.exports = {
   "git": {
     "tagName": "oxygen-ui@${version}",
     "commitMessage": "release: cut the v${version} release",
@@ -15,6 +20,12 @@
     "@release-it/conventional-changelog": {
       "infile": "CHANGELOG.md",
       "header": "# Changelog",
+      writerOpts: {
+        commitPartial: commitTemplate
+      },
+      "gitRawCommitsOpts": {
+        format: '%B%n-hash-%n%H%n-gitTags-%n%d%n-committerDate-%n%ci%n-authorName-%n%an%n-authorEmail-%n%ae%n-gpgStatus-%n%G?%n-gpgSigner-%n%GS'
+      },
       "preset": {
         "name": "angular",
         "types": [
