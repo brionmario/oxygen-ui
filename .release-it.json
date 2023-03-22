@@ -12,12 +12,17 @@
     "@release-it/conventional-changelog": {
       "preset": "angular",
       "infile": "CHANGELOG.md"
+    },
+    "@release-it/bumper": {
+      "out": [
+        "**/package.json"
+      ]
     }
   },
   "npm": {
     "pnpm": true,
     "versionArgs": ["--allow-same-version", "--workspaces-update=false"],
-    "publishArgs": ["-r", "--access", "public"],
+    "publishArgs": ["--access", "public"],
     "allowSameVersion": true,
     "skipChecks": true,
     "publish": true
