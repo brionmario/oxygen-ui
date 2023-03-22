@@ -13,6 +13,11 @@
     "@release-it-plugins/workspaces": true
   },
   "npm": {
+    "skipChecks": true,
     "publish": false
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
