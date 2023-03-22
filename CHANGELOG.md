@@ -1,5 +1,13 @@
 # Changelog
 
+# [1.12.0](https://github.com/wso2/oxygen-ui/compare/v1.11.1...v1.12.0)
+<br> *Released on: 2023-03-22*
+
+### What's Changed
+
+#### `@oxygen-ui/primitives`
+* **primitives:**  this is a feature in react ([11d9441](https://github.com/wso2/oxygen-ui/commit/11d9441f380b8a099eb3d2f8838b32c9fb2f305a))
+
 ## [1.11.1](https://github.com/wso2/oxygen-ui/compare/v1.11.0...v1.11.1)
 <br> *Released on: 2023-03-22*
 
