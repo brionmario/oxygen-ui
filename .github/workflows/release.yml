@@ -54,14 +54,11 @@ jobs:
         id: build
         run: pnpm build
 
-      - name: git config
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-
       - name: 📢 Release & Publish
         id: release-and-publish
         run: |
+          git config user.name "oxygen-ui[bot]"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
           npm run release -- --ci
         env:
