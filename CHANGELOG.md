@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.4.1...oxygen-ui@1.5.0) (2023-03-22)
+
+
+### ✨ Features
+
+* **logger:**  this is a feature ([7e0bbf2](https://github.com/wso2/oxygen-ui/commit/7e0bbf2363854831000ad9b31fdb2dfc7ff747db))
+
 ### [1.4.1](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.4.0...oxygen-ui@1.4.1) (2023-03-22)
 
 
