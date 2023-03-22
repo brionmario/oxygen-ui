@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   git: {
     tagName: 'v${version}',
-    commitMessage: 'release: cut the v${version} release',
+    commitMessage: 'release: cut the v${version} release [skip ci]',
     tagAnnotation: 'Release ${tagName}',
     requireCleanWorkingDir: false
   },
