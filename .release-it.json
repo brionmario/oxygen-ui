@@ -30,17 +30,9 @@
         ]
       }
     },
-    "@release-it-plugins/workspaces": true,
-    "@release-it/bumper": {
-      "in": "package.json",
-      "out": "pnpm-lock.yaml"
-    }
+    "@release-it-plugins/workspaces": true
   },
   "npm": {
-    "pnpm": true,
-    "versionArgs": ["--workspaces-update=false"],
-    "publishArgs": ["-r", "--access", "public"],
-    "allowSameVersion": true,
     "skipChecks": true
   },
   "publishConfig": {
