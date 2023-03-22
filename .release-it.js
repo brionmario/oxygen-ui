@@ -1,8 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-
-const commitTemplate = fs.readFileSync(path.join(__dirname, 'commit.hbs'), 'utf-8');
-
 module.exports = {
   "git": {
     "tagName": "oxygen-ui@${version}",
