@@ -22,7 +22,7 @@
     "clean:build": "pnpm rimraf -G **/**/dist && pnpm rimraf -G **/**/build",
     "clean:lock-files": "pnpm rimraf -G **/**/package-lock.json && pnpm rimraf -G **/**/pnpm-lock.yaml && pnpm rimraf -G **/**/yarn.lock",
     "clean:node-modules": "pnpm rimraf -G **/**/node_modules && pnpm rimraf -G node_modules",
-    "build": "nx run-many --target=build --parallel",
+    "build": "nx run-many --target=build",
     "build:docs": "pnpm --filter @oxygen-ui-experimental/react build-storybook && pnpm --filter @oxygen-ui-experimental/docs build",
     "lint": "nx run-many --target=lint --parallel",
     "lint:es": "nx run-many --target=lint:es --parallel",
