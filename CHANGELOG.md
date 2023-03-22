@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.3.0](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.2.4...oxygen-ui@1.3.0) (2023-03-22)
+
+
+### Bug Fixes
+
+* experiment with release ([506aea1](https://github.com/wso2/oxygen-ui/commit/506aea188719a3907fdb5e860dbc10f50e872444))
+
+
+### Features
+
+* **logger:** experiment with release ([a159a70](https://github.com/wso2/oxygen-ui/commit/a159a70cf1a6fb0b14c289822ba0d78890bc5347))
+
 ### [1.2.4](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.2.3...oxygen-ui@1.2.4) (2023-03-22)
 
 
