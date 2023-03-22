@@ -1,6 +1,6 @@
 {
   "name": "@oxygen-ui-examples/multi-brand-identity",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Sample app to showcase Oxygen Design System multi-branding capabilities.",
   "author": "WSO2",
   "license": "Apache-2.0",
@@ -30,8 +30,8 @@
   "dependencies": {
     "@fontsource/inter": "^4.5.14",
     "@fontsource/montserrat": "^4.5.13",
-    "@oxygen-ui-experimental/primitives": "workspace:*",
-    "@oxygen-ui-experimental/react": "workspace:*",
+    "@oxygen-ui-experimental/primitives": "1.2.3",
+    "@oxygen-ui-experimental/react": "1.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

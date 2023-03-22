@@ -1,5 +1,22 @@
 
 
+## [1.2.3](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.2.2...oxygen-ui@1.2.3) (2023-03-22)
+
+
+### Bug Fixes
+
+* **release:** experiment with release ([1ea3f01](https://github.com/wso2/oxygen-ui/commit/1ea3f01dd1112af7c7fe9c96eb85545959face2f))
+* **release:** experiment with release ([13a0a4d](https://github.com/wso2/oxygen-ui/commit/13a0a4d5d85a2d248edf975113a8af49a2130d20))
+* **release:** experiment with release ([c9c3c2c](https://github.com/wso2/oxygen-ui/commit/c9c3c2c550f65e298f3cd110fb3169c140241aea))
+* **release:** experiment with release ([6c26a5c](https://github.com/wso2/oxygen-ui/commit/6c26a5c9849831efb7e8d14d3adb414c6e3ef0d5))
+* **release:** experiment with release ([14e18b5](https://github.com/wso2/oxygen-ui/commit/14e18b56b1774774b913da432571bbfe8bfd08b5))
+* **release:** experiment with release ([12e98a8](https://github.com/wso2/oxygen-ui/commit/12e98a8196375450ac55a22fe5033ff34d9e2f0b))
+* **release:** experiment with release ([ab8bb3a](https://github.com/wso2/oxygen-ui/commit/ab8bb3abcb79f7afaa5d06151ded34930d7a8887))
+* **release:** experiment with release ([db57dd7](https://github.com/wso2/oxygen-ui/commit/db57dd7c4ba6d3cc7de0e8da45bb73f2d8153899))
+* **release:** experiment with release ([626c9be](https://github.com/wso2/oxygen-ui/commit/626c9bec3ede54836f877409edc1ce57e8885620))
+* **release:** experiment with release ([bd62484](https://github.com/wso2/oxygen-ui/commit/bd62484f662cd5bf3aa7c986b54e9eecf95703c5))
+* **release:** experiment with release ([ebb8fd3](https://github.com/wso2/oxygen-ui/commit/ebb8fd3199b00f026313d70ad5526c65ccc7b654))
+
 ## [1.2.2](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.2.1...oxygen-ui@1.2.2) (2023-03-22)
 
 
