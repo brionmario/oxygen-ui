@@ -16,7 +16,7 @@
       "infile": "CHANGELOG.md",
       "header": "# Changelog",
       "preset": {
-        "name": "conventionalcommits",
+        "name": "angular",
         "types": [
           {
             "type": "feat",
