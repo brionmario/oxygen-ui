@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: {
     "@release-it/conventional-changelog": {
-      infile: "CHANGELOG.md",
+      infile: "CHANGELOG.md", 
       writerOpts: {
         groupBy: "scope"
       }
