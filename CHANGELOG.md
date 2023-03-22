@@ -1,5 +1,17 @@
 # Changelog
 
+# [1.9.0](https://github.com/wso2/oxygen-ui/compare/v1.8.0...v1.9.0) **Released on: 2023-03-22**
+
+## What's Changed
+
+
+### `@oxygen-ui/logger`
+* **logger:**  this is a fix in logger ([a37f242](https://github.com/wso2/oxygen-ui/commit/a37f242fd98490c6d925184e382edda4131a74d3))
+
+
+### `@oxygen-ui/primitives`
+* **primitives:**  this is a feature in react ([26b6627](https://github.com/wso2/oxygen-ui/commit/26b6627c6a97205f7b634bee3bdd9173d8c709c4))
+
 # [1.8.0](https://github.com/wso2/oxygen-ui/compare/v1.7.0...v1.8.0)
 <br/> 2023-03-22
 
