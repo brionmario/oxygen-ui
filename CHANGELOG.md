@@ -1,4 +1,19 @@
+# Changelog
 
+### [1.2.4](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.2.3...oxygen-ui@1.2.4) (2023-03-22)
+
+
+### 📚 Documentation
+
+* **release:** experiment with docs release notes ([1cf10b6](https://github.com/wso2/oxygen-ui/commit/1cf10b6bec70d1eecc3b377ec424394e60a9310e))
+
+
+### 🐛 Bug Fixes
+
+* **release:** experiment with release ([6d71055](https://github.com/wso2/oxygen-ui/commit/6d7105531f7ac2ea080df271718aad1ed6535653))
+* **release:** experiment with release ([e1015d4](https://github.com/wso2/oxygen-ui/commit/e1015d4d97c4ed24bb88624ae9808d0589c954f6))
+* **release:** experiment with release ([8295058](https://github.com/wso2/oxygen-ui/commit/8295058215774953d5b4cc44f2af81cfa48b1d3e))
+* **release:** experiment with release ([447cdfe](https://github.com/wso2/oxygen-ui/commit/447cdfe679dba805479bf1be7e042e0da526371f))
 
 ## [1.2.3](https://github.com/wso2/oxygen-ui/compare/oxygen-ui@1.2.2...oxygen-ui@1.2.3) (2023-03-22)
 
