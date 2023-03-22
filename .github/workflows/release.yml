@@ -54,9 +54,15 @@ jobs:
         id: build
         run: pnpm build
 
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
       - name: 📢 Release & Publish
         id: release-and-publish
         run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
           npm run release -- --ci --npm.pnpm --npm.publishArgs="-r" --npm.skipChecks
         env:
           NPM_TOKEN: ${{ env.NPM_TOKEN }}
