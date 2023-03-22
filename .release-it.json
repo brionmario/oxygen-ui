@@ -13,6 +13,7 @@
     "@release-it-plugins/workspaces": true
   },
   "npm": {
+    "allowSameVersion": true,
     "skipChecks": true,
     "publish": true
   },
