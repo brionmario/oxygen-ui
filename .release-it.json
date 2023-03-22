@@ -30,10 +30,10 @@
         ]
       }
     },
-    "@release-it-plugins/workspaces": {
-      "additionalManifests": {
-        "dependencyUpdates": ["pnpm-lock.yaml"]
-      }
+    "@release-it-plugins/workspaces": true,
+    "@release-it/bumper": {
+      "in": "package.json",
+      "out": "pnpm-lock.yaml"
     }
   },
   "npm": {
