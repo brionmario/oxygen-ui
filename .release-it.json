@@ -11,5 +11,8 @@
       "infile": "CHANGELOG.md"
     },
     "@release-it-plugins/workspaces": true
+  },
+  "npm": {
+    "publish": false
   }
 }
