@@ -75,13 +75,13 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
           if [ "${{ github.event.inputs.version }}" = "Major" ]; then
-            npm run release -- major --preRelease=${github.event.inputs.preRelease} --ci
+            npm run release -- major --preRelease="${{ github.event.inputs.preRelease }}" --ci
           elif [ "${{ github.event.inputs.version }}" = "Minor" ]; then
-            npm run release -- minor --preRelease=${github.event.inputs.preRelease} --ci
+            npm run release -- minor --preRelease="${{ github.event.inputs.preRelease }}" --ci
           elif [ "${{ github.event.inputs.version }}" = "Patch" ]; then
-            npm run release -- patch --preRelease=${github.event.inputs.preRelease} --ci
+            npm run release -- patch --preRelease="${{ github.event.inputs.preRelease }}" --ci
           else
-          npm run release -- --preRelease=${github.event.inputs.preRelease} --ci
+            npm run release -- --preRelease="${{ github.event.inputs.preRelease }}" --ci
           fi
         env:
           INPUT_VERSION: ${{ github.event.inputs.version }}
