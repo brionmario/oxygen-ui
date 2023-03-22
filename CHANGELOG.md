@@ -1,3 +1,22 @@
+
+
+# [1.7.0](https://github.com/wso2/oxygen-ui/compare/v1.6.0...v1.7.0) (2023-03-22)
+
+
+* this is a general fix ([558cf17](https://github.com/wso2/oxygen-ui/commit/558cf17224e37ebe8d968907df56aace089d00ce))
+
+
+### logger
+
+* **logger:**  this is a fix in logger ([dd7563a](https://github.com/wso2/oxygen-ui/commit/dd7563a00142e7d8e81af8869c903ddb9a6a245f))
+* **logger:**  this is a fix in logger ([1af64e5](https://github.com/wso2/oxygen-ui/commit/1af64e5770d5cccada8ed3dc0c9ef6891d43bb9d))
+
+
+### react
+
+* **react:**  this is a feature in react ([211a9da](https://github.com/wso2/oxygen-ui/commit/211a9da31ba9446fe7706fa51dcabdad81651f3d))
+* **react:**  this is a fix in react ([ef9dedb](https://github.com/wso2/oxygen-ui/commit/ef9dedb0b8db600fcc12db294f702115596348f4))
+
 # Changelog
 
 ## [1.6.0](https://github.com/wso2/oxygen-ui/compare/1.0.4...v1.6.0) (2023-03-22)
