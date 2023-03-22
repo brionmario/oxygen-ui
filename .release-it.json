@@ -21,8 +21,7 @@
   },
   "npm": {
     "pnpm": true,
-    "versionArgs": ["--allow-same-version", "--workspaces-update=false"],
-    "publishArgs": ["--access", "public"],
+    "publishArgs": "--registry=https://registry.npmjs.org",
     "allowSameVersion": true,
     "skipChecks": true,
     "publish": true
