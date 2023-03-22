@@ -1,51 +1,50 @@
 module.exports = {
-  "git": {
-    "tagName": "oxygen-ui@${version}",
-    "commitMessage": "release: cut the v${version} release",
-    "tagAnnotation": "Release ${tagName}"
+  git: {
+    tagName: "v${version}",
+    commitMessage: "release: cut the v${version} release",
+    tagAnnotation: "Release ${tagName}"
   },
-  "github": {
-    "release": true,
-    autoGenerate: true,
-    "releaseName": "oxygen-ui@${version}"
+  github: {
+    release: true,
+    releaseName: "Oxygen UI ${version}"
   },
-  "hooks": {
+  hooks: {
     "after:bump": "pnpm install --lockfile-only"
   },
-  "plugins": {
+  plugins: {
     "@release-it/conventional-changelog": {
-      "infile": "CHANGELOG.md",
-      "header": "# Changelog",
-      "preset": {
-        "name": "conventionalCommits",
-        "types": [
+      infile: "CHANGELOG.md",
+      header: "# Changelog",
+      preset: {
+        name: "conventionalCommits",
+        types: [
           {
-            "type": "feat",
-            "section": "✨ Features"
+            type: "feat",
+            section: "✨ Features"
           },
           {
-            "type": "fix",
-            "section": "🐛 Bug Fixes"
+            type: "fix",
+            section: "🐛 Bug Fixes"
           },
           {
-            "type": "docs",
-            "section": "📚 Documentation"
+            type: "docs",
+            section: "📚 Documentation"
           }
         ]
       }
     },
     "@release-it-plugins/workspaces": true
   },
-  "npm": {
-    "pnpm": true,
-    "versionArgs": ["--workspaces-update=false"],
-    "publishArgs": ["-r", "--access", "public"],
-    "allowSameVersion": true,
-    "skipChecks": true,
-    "publish": false
+  npm: {
+    pnpm: true,
+    versionArgs: ["--workspaces-update=false"],
+    publishArgs: ["--access", "public"],
+    allowSameVersion: true,
+    skipChecks: true,
+    publish: true
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
+  publishConfig: {
+    access: "public",
+    registry: "https://registry.npmjs.org"
   }
 }
