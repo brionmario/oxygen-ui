@@ -19,12 +19,6 @@
       ]
     }
   },
-  "npm": {
-    "pnpm": true,
-    "allowSameVersion": true,
-    "skipChecks": true,
-    "publish": true
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
