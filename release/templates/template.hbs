@@ -4,13 +4,13 @@
 {{~#if date}} *Released on: {{date}}*
 {{/if}}
 
-### What's Changed
+## What's Changed
 {{#each commitGroups}}
 
 {{#if title}}
-#### `@oxygen-ui/{{title}}`
+### `@oxygen-ui/{{title}}`
 {{~else~}}
-#### `other`
+### `other`
 {{/if}}
 
 {{#each commits}}
