@@ -40,7 +40,8 @@
     "versionArgs": ["--workspaces-update=false"],
     "publishArgs": ["-r", "--access", "public"],
     "allowSameVersion": true,
-    "skipChecks": true
+    "skipChecks": true,
+    "publish": false
   },
   "publishConfig": {
     "access": "public",
