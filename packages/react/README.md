@@ -1,11 +1,11 @@
 <p align="center" style="color: #343a40">
-  <h1 align="center">@oxygen-ui/react</h1>
+  <h1 align="center">@oxygen-ui-experimental/react</h1>
 </p>
 <p align="center" style="font-size: 1.2rem;">The React implementation of the Oxygen Design System.</p>
 
 <div align="center">
-  <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@oxygen-ui/react">
-  <img alt="npm" src="https://img.shields.io/npm/dw/@oxygen-ui/react">
+  <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@oxygen-ui-experimental/react">
+  <img alt="npm" src="https://img.shields.io/npm/dw/@oxygen-ui-experimental/react">
   <a href="https://github.com/storybooks/storybook" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
 </div>
@@ -14,13 +14,13 @@
 
 ```bash
 # With npm
-npm install @oxygen-ui/react
+npm install @oxygen-ui-experimental/react
 
 # With pnpm
-pnpm add @oxygen-ui/react
+pnpm add @oxygen-ui-experimental/react
 
 # With yarn
-yarn add @oxygen-ui/react
+yarn add @oxygen-ui-experimental/react
 ```
 
 ## Develop
@@ -57,7 +57,7 @@ The `ThemeProvider` component is a wrapper around the Material UI's [CSSVarProvi
 
 ```jsx
 import React from 'react';
-import { ThemeProvider, extendTheme } from '@oxygen-ui/react';
+import { ThemeProvider, extendTheme } from '@oxygen-ui-experimental/react';
 
 const MyThemeProvider = ({ children }) => {
   const theme = extendTheme({
@@ -91,7 +91,7 @@ Here's an example of how to use the `Button` component:
 
 ```jsx
 import React from 'react';
-import { Button } from '@oxygen-ui/react';
+import { Button } from '@oxygen-ui-experimental/react';
 
 const MyButton = () => {
   return (

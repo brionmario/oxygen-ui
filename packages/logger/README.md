@@ -1,35 +1,35 @@
 <p align="center" style="color: #343a40">
-  <h1 align="center">@oxygen-ui/logger</h1>
+  <h1 align="center">@oxygen-ui-experimental/logger</h1>
 </p>
 <p align="center" style="font-size: 1.2rem;">Simple logger package for Oxygen UI.</p>
 
 <div align="center">
-  <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@oxygen-ui/logger">
-  <img alt="npm" src="https://img.shields.io/npm/dw/@oxygen-ui/logger">
+  <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@oxygen-ui-experimental/logger">
+  <img alt="npm" src="https://img.shields.io/npm/dw/@oxygen-ui-experimental/logger">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
 </div>
 
 ## Installation
 
-To install `@oxygen-ui/logger`, run the following command:
+To install `@oxygen-ui-experimental/logger`, run the following command:
 
 ```sh
 # With npm
-npm install @oxygen-ui/logger
+npm install @oxygen-ui-experimental/logger
 
 # With pnpm
-pnpm add @oxygen-ui/logger
+pnpm add @oxygen-ui-experimental/logger
 
 # With yarn
-yarn add @oxygen-ui/logger
+yarn add @oxygen-ui-experimental/logger
 ```
 
 ## Usage
 
-Here's an example of how to use `@oxygen-ui/logger`:
+Here's an example of how to use `@oxygen-ui-experimental/logger`:
 
 ```js
-const { logger } = require('@oxygen-ui/logger');
+const { logger } = require('@oxygen-ui-experimental/logger');
 
 logger.log('======  🧱 Started Building Primitives 🧱  ======');
 logger.success(pkg.name, `🏆 Successfully wrote the transformations.`);
