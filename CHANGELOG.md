@@ -1,5 +1,10 @@
 # Changelog
 
+# [1.0.0-beta.0](https://github.com/wso2/oxygen-ui/compare/v1.0.0-rc.0...v1.0.0-beta.0)
+<br> Released on: 2023-03-23
+
+## What's Changed
+
 # 1.0.0-rc.0
 <br> Released on: 2023-03-23
 

@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@oxygen-ui-experimental/workspace",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-beta.0",
   "description": "The Design System powering WSO2 products.",
   "author": "WSO2",
   "license": "Apache-2.0",
