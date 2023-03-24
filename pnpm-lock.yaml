@@ -55,8 +55,8 @@ importers:
     specifiers:
       '@fontsource/inter': ^4.5.14
       '@fontsource/montserrat': ^4.5.13
-      '@oxygen-ui/primitives': '*'
-      '@oxygen-ui/react': '*'
+      '@oxygen-ui-experimental/primitives': workspace:*
+      '@oxygen-ui-experimental/react': workspace:*
       '@testing-library/jest-dom': ^5.16.5
       '@testing-library/react': ^13.4.0
       '@testing-library/user-event': ^13.5.0
@@ -82,8 +82,8 @@ importers:
     dependencies:
       '@fontsource/inter': 4.5.14
       '@fontsource/montserrat': 4.5.13
-      '@oxygen-ui/primitives': link:../../packages/primitives
-      '@oxygen-ui/react': link:../../packages/react
+      '@oxygen-ui-experimental/primitives': link:../../packages/primitives
+      '@oxygen-ui-experimental/react': link:../../packages/react
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
@@ -167,7 +167,7 @@ importers:
     specifiers:
       '@babel/parser': ^7.20.5
       '@divriots/style-dictionary-to-figma': ^0.4.0
-      '@oxygen-ui/logger': '*'
+      '@oxygen-ui-experimental/logger': workspace:*
       '@types/jest': ^29.2.3
       '@types/node': ^18.11.18
       '@wso2/eslint-plugin': https://gitpkg.now.sh/brionmario/wso2-ui-configs/packages/eslint-plugin?5bf60cabe9e9a2571e8b1dd16d0c3bdc76db2c4f
@@ -186,7 +186,7 @@ importers:
     devDependencies:
       '@babel/parser': 7.20.5
       '@divriots/style-dictionary-to-figma': 0.4.0
-      '@oxygen-ui/logger': link:../logger
+      '@oxygen-ui-experimental/logger': link:../logger
       '@types/jest': 29.2.5
       '@types/node': 18.11.18
       '@wso2/eslint-plugin': '@gitpkg.now.sh/brionmario/wso2-ui-configs/packages/eslint-plugin?5bf60cabe9e9a2571e8b1dd16d0c3bdc76db2c4f_o7md7g7vewlpn7zk2pfnybp6ie'
@@ -213,9 +213,9 @@ importers:
       '@mui/material': ^5.10.16
       '@mui/system': ^5.10.16
       '@mui/utils': ^5.10.16
-      '@oxygen-ui/logger': '*'
-      '@oxygen-ui/primitives': '*'
-      '@oxygen-ui/react-icons': '*'
+      '@oxygen-ui-experimental/logger': workspace:*
+      '@oxygen-ui-experimental/primitives': workspace:*
+      '@oxygen-ui-experimental/react-icons': workspace:*
       '@rollup/plugin-commonjs': ^23.0.3
       '@rollup/plugin-image': ^3.0.1
       '@rollup/plugin-node-resolve': ^15.0.1
@@ -275,8 +275,8 @@ importers:
       tslib: ^2.4.1
       typescript: ^4.9.3
     dependencies:
-      '@oxygen-ui/primitives': link:../primitives
-      '@oxygen-ui/react-icons': link:../react-icons
+      '@oxygen-ui-experimental/primitives': link:../primitives
+      '@oxygen-ui-experimental/react-icons': link:../react-icons
       clsx: 1.2.1
       react-world-flags: 1.5.1_react@18.2.0
     devDependencies:
@@ -288,7 +288,7 @@ importers:
       '@mui/material': 5.11.13_pte7igy7nwbxlzeccvq7hpzi4q
       '@mui/system': 5.11.13_dhit7hwbxwjs4eberzjw3ibkbi
       '@mui/utils': 5.11.13_react@18.2.0
-      '@oxygen-ui/logger': link:../logger
+      '@oxygen-ui-experimental/logger': link:../logger
       '@rollup/plugin-commonjs': 23.0.5_rollup@3.7.4
       '@rollup/plugin-image': 3.0.1_rollup@3.7.4
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.7.4
@@ -354,8 +354,8 @@ importers:
       '@babel/preset-react': ^7.18.6
       '@babel/preset-typescript': ^7.18.6
       '@babel/types': ^7.20.2
-      '@oxygen-ui/logger': '*'
-      '@oxygen-ui/primitives': '*'
+      '@oxygen-ui-experimental/logger': workspace:*
+      '@oxygen-ui-experimental/primitives': workspace:*
       '@rollup/plugin-babel': 5.3.1
       '@rollup/plugin-commonjs': ^23.0.3
       '@rollup/plugin-node-resolve': ^15.0.1
@@ -384,8 +384,8 @@ importers:
       '@babel/preset-react': 7.18.6_@babel+core@7.20.5
       '@babel/preset-typescript': 7.18.6_@babel+core@7.20.5
       '@babel/types': 7.20.5
-      '@oxygen-ui/logger': link:../logger
-      '@oxygen-ui/primitives': link:../primitives
+      '@oxygen-ui-experimental/logger': link:../logger
+      '@oxygen-ui-experimental/primitives': link:../primitives
       '@rollup/plugin-babel': 5.3.1_opjstonlpkhafnz76jsxdwq25a
       '@rollup/plugin-commonjs': 23.0.5_rollup@2.79.1
       '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1

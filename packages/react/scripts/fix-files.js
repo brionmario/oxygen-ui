@@ -19,7 +19,7 @@
 const fs = require('fs');
 const path = require('path');
 const saas = require('node-sass');
-const {logger} = require('@oxygen-ui/logger');
+const {logger} = require('@oxygen-ui-experimental/logger');
 
 module.exports = fixFiles = () => {
   //All files and directories in the src/components folder.

@@ -1,10 +1,10 @@
 <p align="center" style="color: #343a40">
-  <h1 align="center">@oxygen-ui/react-icons</h1>
+  <h1 align="center">@oxygen-ui-experimental/react-icons</h1>
 </p>
 <p align="center" style="font-size: 1.2rem;">React components for Oxygen UI icons.</p>
 <div align="center">
-  <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@oxygen-ui/react-icons">
-  <img alt="npm" src="https://img.shields.io/npm/dw/@oxygen-ui/react-icons">
+  <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@oxygen-ui-experimental/react-icons">
+  <img alt="npm" src="https://img.shields.io/npm/dw/@oxygen-ui-experimental/react-icons">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
 </div>
 
@@ -12,20 +12,20 @@
 
 ```bash
 # With npm
-npm install @oxygen-ui/react-icons
+npm install @oxygen-ui-experimental/react-icons
 
 # With pnpm
-pnpm add @oxygen-ui/react-icons
+pnpm add @oxygen-ui-experimental/react-icons
 
 # With yarn
-yarn add @oxygen-ui/react-icons
+yarn add @oxygen-ui-experimental/react-icons
 
 ## Usage
 
-To use icons from `@oxygen-ui/react-icons`, simply import the desired icon as a React component and use it in your code:
+To use icons from `@oxygen-ui-experimental/react-icons`, simply import the desired icon as a React component and use it in your code:
 
 ```jsx
-import { HamburgerIcon } from '@oxygen-ui/react-icons';
+import { HamburgerIcon } from '@oxygen-ui-experimental/react-icons';
 
 function CustomHamburgerIcon() {
   return <HamburgerIcon fill="#FFFFFF" size={16} />;
@@ -36,7 +36,7 @@ function CustomHamburgerIcon() {
 
 ### Icon Components
 
-The `@oxygen-ui/react-icons` package exports all the available icons as React components, which can be used in your app as shown in the example above. The available icons are:
+The `@oxygen-ui-experimental/react-icons` package exports all the available icons as React components, which can be used in your app as shown in the example above. The available icons are:
 
 - `HamburgerIcon`
 - `ChevronLeftIcon`

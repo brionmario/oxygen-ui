@@ -21,13 +21,13 @@ const fs = require('fs-extra');
 const {execSync} = require('child_process');
 const packageJson = require('../package.json');
 const fixFiles = require('./fix-files');
-const {logger} = require('@oxygen-ui/logger');
+const {logger} = require('@oxygen-ui-experimental/logger');
 
 const outputDir = path.resolve(__dirname, '..', 'dist', 'transpiled');
 
 logger.log('💅 Transpiling components...');
 execSync(
-  `npx tsc --project tsconfig.lib.json --declarationDir ${outputDir} --emitDeclarationOnly false --outDir ${outputDir}`,
+  `npx tsc --project ${path.resolve(path.join(__dirname, '..', 'tsconfig.lib.json'))} --declarationDir ${outputDir} --emitDeclarationOnly false --outDir ${outputDir}`,
 );
 logger.log('💅 Components transpiled! 🎉🎉🎉');
 
