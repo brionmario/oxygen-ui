@@ -6,5 +6,7 @@
     "@brionmario-experimental/vite-plugin-oxygen-ui": "0.0.0",
     "@brionmario-experimental/oxygen-ui-test-app": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "neat-beans-call"
+  ]
 }
