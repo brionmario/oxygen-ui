@@ -1,5 +1,5 @@
 {
-  "name": "@wso2/oxygen-ui",
+  "name": "@brionmario-experimental/oxygen-ui",
   "version": "0.0.0",
   "description": "WSO2 Oxygen UI | Design System - Powered with Material-UI component library with TypeScript support",
   "type": "module",
@@ -104,9 +104,6 @@
     "typescript": "^5.9.3",
     "vite": "^7.1.12",
     "vitest": "^1.0.4"
-  },
-  "engines": {
-    "node": ">=25.0.0"
   },
   "nx": {
     "targets": {

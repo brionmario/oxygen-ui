@@ -1,5 +1,5 @@
 {
-  "name": "@wso2/oxygen-icons",
+  "name": "@brionmario-experimental/oxygen-icons",
   "version": "0.0.0",
   "description": "WSO2 Oxygen Icons | System Icons - Powered with Lucide icons library",
   "type": "module",
@@ -82,9 +82,6 @@
     "typescript": "^5.9.3",
     "vite": "^7.1.12",
     "vitest": "^1.0.4"
-  },
-  "engines": {
-    "node": ">=25.0.0"
   },
   "dependencies": {},
   "publishConfig": {

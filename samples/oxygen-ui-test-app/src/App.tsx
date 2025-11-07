@@ -16,8 +16,8 @@
  * under the License.
  */
 
-import { Badge, Button, Layout } from '@wso2/oxygen-ui'
-import ColorModeToggle from '@wso2/oxygen-ui/ColorModeToggle'
+import { Badge, Button, Layout } from '@brionmario-experimental/oxygen-ui'
+import ColorModeToggle from '@brionmario-experimental/oxygen-ui/ColorModeToggle'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'

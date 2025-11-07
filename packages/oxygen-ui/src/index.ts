@@ -23,6 +23,6 @@ export { default as ColorModeToggle } from "./components/ColorModeToggle/ColorMo
 export { default as Layout } from "./layouts";
 
 // Re-export the entire @mui/material API
-// This allows consumers to import from @wso2/oxygen-ui instead of @mui/material
+// This allows consumers to import from @brionmario-experimental/oxygen-ui instead of @mui/material
 // and automatically get the Oxygen theme applied
 export * from '@mui/material';
