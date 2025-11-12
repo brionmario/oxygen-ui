@@ -1,4 +1,4 @@
-# @wso2/oxygen-ui-icons-react
+# @brionmario-experimental/oxygen-ui-icons-react
 
 WSO2 Oxygen UI Icons library - Powered by [Lucide Icons](https://lucide.dev/).
 
@@ -7,7 +7,7 @@ This package provides a comprehensive set of icons for use in WSO2 Oxygen UI app
 ## Installation
 
 ```bash
-pnpm add @wso2/oxygen-ui-icons-react
+pnpm add @brionmario-experimental/oxygen-ui-icons-react
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ pnpm add @wso2/oxygen-ui-icons-react
 Import icons directly from the package:
 
 ```jsx
-import { Bell, Search, User, WSO2 } from '@wso2/oxygen-ui-icons-react';
+import { Bell, Search, User, WSO2 } from '@brionmario-experimental/oxygen-ui-icons-react';
 
 function MyComponent() {
   return (
@@ -54,8 +54,8 @@ Browse the complete collection at [lucide.dev/icons](https://lucide.dev/icons)
 ## Example with Material-UI
 
 ```jsx
-import { IconButton } from '@wso2/oxygen-ui';
-import { Settings, LogOut } from '@wso2/oxygen-ui-icons-react';
+import { IconButton } from '@brionmario-experimental/oxygen-ui';
+import { Settings, LogOut } from '@brionmario-experimental/oxygen-ui-icons-react';
 
 function Toolbar() {
   return (
@@ -76,7 +76,7 @@ function Toolbar() {
 This package includes TypeScript definitions for all icons.
 
 ```tsx
-import { LucideIcon } from '@wso2/oxygen-ui-icons-react';
+import { LucideIcon } from '@brionmario-experimental/oxygen-ui-icons-react';
 
 interface MyIconProps {
   Icon: LucideIcon;
@@ -99,10 +99,10 @@ This package is optimized for tree shaking. Import only the icons you need to ke
 
 ```jsx
 // ✅ Good - only imports what you need
-import { Bell, Search } from '@wso2/oxygen-ui-icons-react';
+import { Bell, Search } from '@brionmario-experimental/oxygen-ui-icons-react';
 
 // ❌ Bad - imports everything
-import * as Icons from '@wso2/oxygen-ui-icons-react';
+import * as Icons from '@brionmario-experimental/oxygen-ui-icons-react';
 ```
 
 ## License

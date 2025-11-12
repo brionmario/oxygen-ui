@@ -1,7 +1,7 @@
 ---
-'@wso2/eslint-plugin-oxygen-ui': patch
-'@wso2/oxygen-ui': patch
-'@wso2/oxygen-ui-icons-react': patch
+'@brionmario-experimental/eslint-plugin-oxygen-ui': patch
+'@brionmario-experimental/oxygen-ui': patch
+'@brionmario-experimental/oxygen-ui-icons-react': patch
 ---
 
 🎉 Initial pre-release

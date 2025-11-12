@@ -1,15 +1,15 @@
-# @wso2/eslint-plugin-oxygen-ui
+# @brionmario-experimental/eslint-plugin-oxygen-ui
 
 ESLint plugin to enforce Oxygen UI best practices by preventing direct imports from `@mui/*` packages and `lucide-react`.
 
 ## Installation
 
 ```bash
-npm install --save-dev @wso2/eslint-plugin-oxygen-ui
+npm install --save-dev @brionmario-experimental/eslint-plugin-oxygen-ui
 # or
-pnpm add -D @wso2/eslint-plugin-oxygen-ui
+pnpm add -D @brionmario-experimental/eslint-plugin-oxygen-ui
 # or
-yarn add -D @wso2/eslint-plugin-oxygen-ui
+yarn add -D @brionmario-experimental/eslint-plugin-oxygen-ui
 ```
 
 ## Usage
@@ -17,16 +17,16 @@ yarn add -D @wso2/eslint-plugin-oxygen-ui
 ### Flat Config (ESLint 9+)
 
 ```javascript
-import oxygenUIPlugin from '@wso2/eslint-plugin-oxygen-ui';
+import oxygenUIPlugin from '@brionmario-experimental/eslint-plugin-oxygen-ui';
 
 export default [
   {
     plugins: {
-      '@wso2/oxygen-ui': oxygenUIPlugin,
+      '@brionmario-experimental/oxygen-ui': oxygenUIPlugin,
     },
     rules: {
-      '@wso2/oxygen-ui/no-direct-mui-imports': 'error',
-      '@wso2/oxygen-ui/no-direct-lucide-imports': 'error',
+      '@brionmario-experimental/oxygen-ui/no-direct-mui-imports': 'error',
+      '@brionmario-experimental/oxygen-ui/no-direct-lucide-imports': 'error',
     },
   },
 ];
@@ -35,7 +35,7 @@ export default [
 Or use the recommended config:
 
 ```javascript
-import oxygenUIPlugin from '@wso2/eslint-plugin-oxygen-ui';
+import oxygenUIPlugin from '@brionmario-experimental/eslint-plugin-oxygen-ui';
 
 export default [
   oxygenUIPlugin.configs.recommended,
@@ -59,26 +59,26 @@ import { DatePicker } from '@mui/x-date-pickers';
 ✅ **Correct:**
 ```javascript
 // Standard Material-UI components
-import { Box, Stack, Button } from '@wso2/oxygen-ui';
+import { Box, Stack, Button } from '@brionmario-experimental/oxygen-ui';
 
 // MUI X Data Grid components (namespace export)
-import { DataGrid } from '@wso2/oxygen-ui';
+import { DataGrid } from '@brionmario-experimental/oxygen-ui';
 // Then destructure specific components:
 const { DataGrid: DataGridComponent, GridColDef } = DataGrid;
 
 // MUI X Date Pickers components (namespace export)
-import { DatePickers } from '@wso2/oxygen-ui';
+import { DatePickers } from '@brionmario-experimental/oxygen-ui';
 // Then destructure specific components:
 const { DatePicker, LocalizationProvider } = DatePickers;
 ```
 
 **Options:**
-- `suggestedPackage` (string): The package to suggest instead of @mui/* (default: '@wso2/oxygen-ui')
+- `suggestedPackage` (string): The package to suggest instead of @mui/* (default: '@brionmario-experimental/oxygen-ui')
 - `allowedPackages` (array): List of MUI packages that are allowed (default: [])
 
 ### `no-direct-lucide-imports`
 
-Prevents direct imports from `lucide-react` and suggests using `@wso2/oxygen-ui-icons-react` instead.
+Prevents direct imports from `lucide-react` and suggests using `@brionmario-experimental/oxygen-ui-icons-react` instead.
 
 ❌ **Incorrect:**
 ```javascript
@@ -87,11 +87,11 @@ import { Settings, Home, User } from 'lucide-react';
 
 ✅ **Correct:**
 ```javascript
-import { Settings, Home, User } from '@wso2/oxygen-ui-icons-react';
+import { Settings, Home, User } from '@brionmario-experimental/oxygen-ui-icons-react';
 ```
 
 **Options:**
-- `suggestedPackage` (string): The package to suggest instead of lucide-react (default: '@wso2/oxygen-ui-icons-react')
+- `suggestedPackage` (string): The package to suggest instead of lucide-react (default: '@brionmario-experimental/oxygen-ui-icons-react')
 
 ## Auto-fixing
 

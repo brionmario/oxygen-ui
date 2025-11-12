@@ -21,7 +21,7 @@ import path from "path";
 import { XMLParser } from "fast-xml-parser";
 import prettier from "prettier";
 
-const PACKAGE_NAME = "@wso2/oxygen-icons";
+const PACKAGE_NAME = "@brionmario-experimental/oxygen-icons";
 const iconsDir = path.resolve("icons");
 const srcDir = path.resolve("src");
 const distDir = path.resolve("dist");

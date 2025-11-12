@@ -22,7 +22,7 @@ Before you begin, ensure you have the following installed:
 ## Installing Oxygen UI
 
 ```bash
-pnpm add @wso2/oxygen-ui @wso2/oxygen-ui-icons-react @emotion/react @emotion/styled @mui/material
+pnpm add @brionmario-experimental/oxygen-ui @brionmario-experimental/oxygen-ui-icons-react @emotion/react @emotion/styled @mui/material
 ```
 
 ## Using Components
@@ -30,7 +30,7 @@ pnpm add @wso2/oxygen-ui @wso2/oxygen-ui-icons-react @emotion/react @emotion/sty
 Import any Material-UI or Oxygen-UI custom component:
 
 ```jsx
-import { OxygenUIThemeProvider, Button, TextField } from '@wso2/oxygen-ui';
+import { OxygenUIThemeProvider, Button, TextField } from '@brionmario-experimental/oxygen-ui';
 
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
 }
 ```
 
-> **Note**: `import { Button } from '@wso2/oxygen-ui'` is equivalent to `import { Button } from '@mui/material'`
+> **Note**: `import { Button } from '@brionmario-experimental/oxygen-ui'` is equivalent to `import { Button } from '@mui/material'`
 
 Refer to [Material-UI documentation](https://mui.com/material-ui/all-components/) for component usage details.
 
@@ -51,7 +51,7 @@ Refer to [Material-UI documentation](https://mui.com/material-ui/all-components/
 For DataGrid and DatePickers, use namespace imports:
 
 ```jsx
-import { DataGrid } from '@wso2/oxygen-ui';
+import { DataGrid } from '@brionmario-experimental/oxygen-ui';
 
 function MyDataGrid() {
   return (
@@ -63,17 +63,17 @@ function MyDataGrid() {
 }
 ```
 
-See the [@wso2/oxygen-ui README](./packages/oxygen-ui/README.md) for detailed usage.
+See the [@brionmario-experimental/oxygen-ui README](./packages/oxygen-ui/README.md) for detailed usage.
 
 ## Using Icons
 
 Import Lucide icons or Oxygen-UI custom icons:
 
 ```jsx
-import { Bell, WSO2 } from '@wso2/oxygen-ui-icons-react';
+import { Bell, WSO2 } from '@brionmario-experimental/oxygen-ui-icons-react';
 ```
 
-> **Note**: `import { Bell } from '@wso2/oxygen-ui-icons-react'` is equivalent to `import { Bell } from 'lucide-react'`
+> **Note**: `import { Bell } from '@brionmario-experimental/oxygen-ui-icons-react'` is equivalent to `import { Bell } from 'lucide-react'`
 
 Refer to [Lucide documentation](https://lucide.dev/icons) for the complete icon list.
 
@@ -111,8 +111,8 @@ The workspace is organized as follows:
 ```
 oxygen-ui/
 ├── packages/
-│   ├── oxygen-ui/                        # Main Oxygen-UI component library (@wso2/oxygen-ui)
-│   ├── oxygen-ui-icons-react/            # Oxygen-UI icons library (@wso2/oxygen-ui-icons-react) 
+│   ├── oxygen-ui/                        # Main Oxygen-UI component library (@brionmario-experimental/oxygen-ui)
+│   ├── oxygen-ui-icons-react/            # Oxygen-UI icons library (@brionmario-experimental/oxygen-ui-icons-react) 
 │   └── eslint-plugin-oxygen-ui/          # ESLint plugin for enforcing Oxygen-UI import patterns
 ├── samples/
 │   └── oxygen-ui-test-app/               # Example Vite + React app using Oxygen-UI

@@ -155,31 +155,31 @@ jobs:
         id: run-tests
         run: pnpm test
 
-      - name: Upload `@wso2/oxygen-ui` coverage reports to Codecov
+      - name: Upload `@brionmario-experimental/oxygen-ui` coverage reports to Codecov
         id: upload-wso2-oxygen-ui-coverage
         uses: codecov/codecov-action@v4
         with:
           token: ${{ env.CODECOV_TOKEN }}
           files: ./packages/oxygen-ui/coverage/coverage-final.json
-          flags: '@wso2/oxygen-ui'
+          flags: '@brionmario-experimental/oxygen-ui'
           verbose: true
 
-      - name: Upload `@wso2/oxygen-icons` coverage reports to Codecov
+      - name: Upload `@brionmario-experimental/oxygen-icons` coverage reports to Codecov
         id: upload-wso2-oxygen-icons-coverage
         uses: codecov/codecov-action@v4
         with:
           token: ${{ env.CODECOV_TOKEN }}
           files: ./packages/oxygen-icons/coverage/coverage-final.json
-          flags: '@wso2/oxygen-icons'
+          flags: '@brionmario-experimental/oxygen-icons'
           verbose: true
           
-      - name: Upload `@wso2/vite-plugin-oxygen-ui` coverage reports to Codecov
+      - name: Upload `@brionmario-experimental/vite-plugin-oxygen-ui` coverage reports to Codecov
         id: upload-wso2-vite-plugin-oxygen-ui-coverage
         uses: codecov/codecov-action@v4
         with:
           token: ${{ env.CODECOV_TOKEN }}
           files: ./packages/vite-plugin-oxygen-ui/coverage/coverage-final.json
-          flags: '@wso2/vite-plugin-oxygen-ui'
+          flags: '@brionmario-experimental/vite-plugin-oxygen-ui'
           verbose: true
 
   storybook:

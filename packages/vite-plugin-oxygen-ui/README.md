@@ -1,14 +1,14 @@
-# @wso2/vite-plugin-oxygen-ui
+# @brionmario-experimental/vite-plugin-oxygen-ui
 
-A Vite plugin that provides optimized module resolution for `@wso2/oxygen-ui` imports, enabling efficient tree-shaking and build optimization.
+A Vite plugin that provides optimized module resolution for `@brionmario-experimental/oxygen-ui` imports, enabling efficient tree-shaking and build optimization.
 
 ## What it does
 
 This plugin creates aliases for individual Material-UI component imports through the Oxygen UI package. It maps:
 
 ```
-@wso2/oxygen-ui/Button  →  @mui/material/Button
-@wso2/oxygen-ui/TextField  →  @mui/material/TextField
+@brionmario-experimental/oxygen-ui/Button  →  @mui/material/Button
+@brionmario-experimental/oxygen-ui/TextField  →  @mui/material/TextField
 ```
 
 This enables:
@@ -19,7 +19,7 @@ This enables:
 ## Installation
 
 ```bash
-pnpm add -D @wso2/vite-plugin-oxygen-ui
+pnpm add -D @brionmario-experimental/vite-plugin-oxygen-ui
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ Add the plugin to your `vite.config.ts`:
 ```ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import oxygenUIPlugin from '@wso2/vite-plugin-oxygen-ui';
+import oxygenUIPlugin from '@brionmario-experimental/vite-plugin-oxygen-ui';
 
 export default defineConfig({
   plugins: [
@@ -43,20 +43,20 @@ export default defineConfig({
 
 ### Named imports (Recommended)
 ```jsx
-import { Button, TextField, Box } from '@wso2/oxygen-ui';
+import { Button, TextField, Box } from '@brionmario-experimental/oxygen-ui';
 ```
 
 ### Direct imports (Also works)
 ```jsx
-import Button from '@wso2/oxygen-ui/Button';
-import TextField from '@wso2/oxygen-ui/TextField';
+import Button from '@brionmario-experimental/oxygen-ui/Button';
+import TextField from '@brionmario-experimental/oxygen-ui/TextField';
 ```
 
 Both approaches benefit from the plugin's optimizations.
 
 ## Custom Components
 
-Custom Oxygen UI components (not from Material-UI) are handled by the `@wso2/oxygen-ui` package itself and don't need special aliasing.
+Custom Oxygen UI components (not from Material-UI) are handled by the `@brionmario-experimental/oxygen-ui` package itself and don't need special aliasing.
 
 ## TypeScript Support
 
@@ -66,8 +66,8 @@ If you're using TypeScript, ensure your `tsconfig.json` includes proper path map
 {
   "compilerOptions": {
     "paths": {
-      "@wso2/oxygen-ui": ["./node_modules/@wso2/oxygen-ui/dist/index.d.ts"],
-      "@wso2/oxygen-ui/*": ["./node_modules/@wso2/oxygen-ui/dist/*"]
+      "@brionmario-experimental/oxygen-ui": ["./node_modules/@brionmario-experimental/oxygen-ui/dist/index.d.ts"],
+      "@brionmario-experimental/oxygen-ui/*": ["./node_modules/@brionmario-experimental/oxygen-ui/dist/*"]
     }
   }
 }
@@ -78,7 +78,7 @@ If you're using TypeScript, ensure your `tsconfig.json` includes proper path map
 The plugin:
 1. Reads the `@mui/material` directory to discover all available components
 2. Creates Vite aliases for each component path
-3. At build time, Vite resolves `@wso2/oxygen-ui/Button` directly to `@mui/material/Button`
+3. At build time, Vite resolves `@brionmario-experimental/oxygen-ui/Button` directly to `@mui/material/Button`
 
 This means your production bundle only includes the Material-UI components you actually use, resulting in optimal bundle size.
 

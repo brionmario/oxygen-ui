@@ -60,7 +60,7 @@ const noDirectMuiImportsRule: Rule.RuleModule = {
   create(context: Rule.RuleContext) {
     const options: NoDirectMuiImportsOptions = (context.options?.[0] as NoDirectMuiImportsOptions) ?? {};
     const allowedPackages: string[] = options.allowedPackages ?? [];
-    const suggestedPackage: string = options.suggestedPackage ?? '@wso2/oxygen-ui';
+    const suggestedPackage: string = options.suggestedPackage ?? '@brionmario-experimental/oxygen-ui';
 
     return {
       ImportDeclaration(node: ImportDeclaration) {

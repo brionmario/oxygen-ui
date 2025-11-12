@@ -16,8 +16,8 @@
  * under the License.
  */
 
-import { Badge, Box, Button, ColorSchemeToggle, Layout, Link, Typography } from '@wso2/oxygen-ui'
-import { Lightbulb, WSO2 } from '@wso2/oxygen-ui-icons-react'
+import { Badge, Box, Button, ColorSchemeToggle, Layout, Link, Typography } from '@brionmario-experimental/oxygen-ui'
+import { Lightbulb, WSO2 } from '@brionmario-experimental/oxygen-ui-icons-react'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'

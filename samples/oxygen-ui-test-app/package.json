@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@wso2/oxygen-ui-test-app",
+  "name": "@brionmario-experimental/oxygen-ui-test-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@wso2/oxygen-ui": "workspace:*",
-    "@wso2/oxygen-ui-icons-react": "workspace:*",
+    "@brionmario-experimental/oxygen-ui": "workspace:*",
+    "@brionmario-experimental/oxygen-ui-icons-react": "workspace:*",
     "react": "catalog:",
     "react-dom": "catalog:"
   },

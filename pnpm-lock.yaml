@@ -198,7 +198,7 @@ importers:
       '@mui/x-tree-view':
         specifier: 'catalog:'
         version: 8.17.0(@emotion/react@11.14.0(@types/react@19.2.2)(react@19.2.0))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.2)(react@19.2.0))(@types/react@19.2.2)(react@19.2.0))(@mui/material@7.3.4(@emotion/react@11.14.0(@types/react@19.2.2)(react@19.2.0))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.2)(react@19.2.0))(@types/react@19.2.2)(react@19.2.0))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(@mui/system@7.3.3(@emotion/react@11.14.0(@types/react@19.2.2)(react@19.2.0))(@emotion/styled@11.14.1(@emotion/react@11.14.0(@types/react@19.2.2)(react@19.2.0))(@types/react@19.2.2)(react@19.2.0))(@types/react@19.2.2)(react@19.2.0))(@types/react@19.2.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@wso2/oxygen-ui-icons-react':
+      '@brionmario-experimental/oxygen-ui-icons-react':
         specifier: workspace:*
         version: link:../oxygen-ui-icons-react
       react:
@@ -323,10 +323,10 @@ importers:
 
   samples/oxygen-ui-test-app:
     dependencies:
-      '@wso2/oxygen-ui':
+      '@brionmario-experimental/oxygen-ui':
         specifier: workspace:*
         version: link:../../packages/oxygen-ui
-      '@wso2/oxygen-ui-icons-react':
+      '@brionmario-experimental/oxygen-ui-icons-react':
         specifier: workspace:*
         version: link:../../packages/oxygen-ui-icons-react
       react:

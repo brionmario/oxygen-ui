@@ -5,8 +5,8 @@ This is a sample Vite + React + TypeScript application demonstrating the usage o
 ## Features
 
 This test app showcases:
-- Integration of `@wso2/oxygen-ui` components
-- Usage of `@wso2/oxygen-ui-icons-react` for icons
+- Integration of `@brionmario-experimental/oxygen-ui` components
+- Usage of `@brionmario-experimental/oxygen-ui-icons-react` for icons
 - Theme customization with `OxygenUIThemeProvider`
 - MUI X Data Grid and Date Pickers integration
 - TypeScript configuration for Oxygen UI
@@ -70,7 +70,7 @@ oxygen-ui-test-app/
 ### Basic Components
 
 ```tsx
-import { Button, TextField, Box, Stack } from '@wso2/oxygen-ui';
+import { Button, TextField, Box, Stack } from '@brionmario-experimental/oxygen-ui';
 
 function MyComponent() {
   return (
@@ -87,7 +87,7 @@ function MyComponent() {
 ### Icons
 
 ```tsx
-import { Settings, User, LogOut } from '@wso2/oxygen-ui-icons-react';
+import { Settings, User, LogOut } from '@brionmario-experimental/oxygen-ui-icons-react';
 
 function Toolbar() {
   return (
@@ -103,7 +103,7 @@ function Toolbar() {
 ### Theme Provider
 
 ```tsx
-import { OxygenUIThemeProvider } from '@wso2/oxygen-ui';
+import { OxygenUIThemeProvider } from '@brionmario-experimental/oxygen-ui';
 
 function App() {
   return (
@@ -119,17 +119,17 @@ function App() {
 - [React 19](https://react.dev/)
 - [TypeScript 5](https://www.typescriptlang.org/)
 - [Vite 7](https://vite.dev/)
-- [@wso2/oxygen-ui](../../packages/oxygen-ui/README.md) - WSO2 Oxygen UI component library
-- [@wso2/oxygen-ui-icons-react](../../packages/oxygen-ui-icons-react/README.md) - Icon library
-- [@wso2/eslint-plugin-oxygen-ui](../../packages/eslint-plugin-oxygen-ui/README.md) - ESLint plugin
-- [@wso2/vite-plugin-oxygen-ui](../../packages/vite-plugin-oxygen-ui/README.md) - Vite plugin
+- [@brionmario-experimental/oxygen-ui](../../packages/oxygen-ui/README.md) - WSO2 Oxygen UI component library
+- [@brionmario-experimental/oxygen-ui-icons-react](../../packages/oxygen-ui-icons-react/README.md) - Icon library
+- [@brionmario-experimental/eslint-plugin-oxygen-ui](../../packages/eslint-plugin-oxygen-ui/README.md) - ESLint plugin
+- [@brionmario-experimental/vite-plugin-oxygen-ui](../../packages/vite-plugin-oxygen-ui/README.md) - Vite plugin
 
 ## ESLint Configuration
 
 This project uses the Oxygen UI ESLint plugin to enforce best practices:
 
 ```javascript
-import oxygenUIPlugin from '@wso2/eslint-plugin-oxygen-ui';
+import oxygenUIPlugin from '@brionmario-experimental/eslint-plugin-oxygen-ui';
 
 export default [
   oxygenUIPlugin.configs.recommended,

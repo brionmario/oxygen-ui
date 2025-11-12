@@ -9,9 +9,9 @@
   "commit": false,
   "linked": [
     [
-      "@wso2/eslint-plugin-oxygen-ui",
-      "@wso2/oxygen-ui",
-      "@wso2/oxygen-ui-icons-react"
+      "@brionmario-experimental/eslint-plugin-oxygen-ui",
+      "@brionmario-experimental/oxygen-ui",
+      "@brionmario-experimental/oxygen-ui-icons-react"
     ]
   ],
   "access": "public",

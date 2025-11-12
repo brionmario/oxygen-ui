@@ -28,9 +28,9 @@ const muiComponents = fs.readdirSync(materialPath).filter((name) => {
 export default function oxygenUIPlugin() {
   const alias = {};
   
-  // Alias individual component imports: @wso2/oxygen-ui/Button → @mui/material/Button
+  // Alias individual component imports: @brionmario-experimental/oxygen-ui/Button → @mui/material/Button
   muiComponents.forEach((component) => {
-    alias[`@wso2/oxygen-ui/${component}`] = `@mui/material/${component}`;
+    alias[`@brionmario-experimental/oxygen-ui/${component}`] = `@mui/material/${component}`;
   });
 
   return {

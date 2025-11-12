@@ -1,0 +1,72 @@
+{
+  "changesets": [
+    {
+      "releases": [
+        {
+          "name": "@brionmario-experimental/eslint-plugin-oxygen-ui",
+          "type": "patch"
+        },
+        {
+          "name": "@brionmario-experimental/oxygen-ui",
+          "type": "patch"
+        },
+        {
+          "name": "@brionmario-experimental/oxygen-ui-icons-react",
+          "type": "patch"
+        }
+      ],
+      "summary": "🎉 Initial pre-release",
+      "id": "public-lions-march"
+    }
+  ],
+  "releases": [
+    {
+      "name": "@brionmario-experimental/eslint-plugin-oxygen-ui",
+      "type": "patch",
+      "oldVersion": "0.0.0",
+      "changesets": [
+        "public-lions-march"
+      ],
+      "newVersion": "0.0.1-alpha.0"
+    },
+    {
+      "name": "@brionmario-experimental/oxygen-ui",
+      "type": "patch",
+      "oldVersion": "0.0.0",
+      "changesets": [
+        "public-lions-march"
+      ],
+      "newVersion": "0.0.1-alpha.0"
+    },
+    {
+      "name": "@brionmario-experimental/oxygen-ui-icons-react",
+      "type": "patch",
+      "oldVersion": "0.0.0",
+      "changesets": [
+        "public-lions-march"
+      ],
+      "newVersion": "0.0.1-alpha.0"
+    },
+    {
+      "name": "@brionmario-experimental/oxygen-ui-test-app",
+      "type": "none",
+      "oldVersion": "0.0.0",
+      "changesets": [],
+      "newVersion": "0.0.0"
+    }
+  ],
+  "preState": {
+    "mode": "pre",
+    "tag": "alpha",
+    "initialVersions": {
+      "@brionmario-experimental/eslint-plugin-oxygen-ui": "0.0.0",
+      "@brionmario-experimental/oxygen-ui": "0.0.0",
+      "@brionmario-experimental/oxygen-ui-icons-react": "0.0.0",
+      "@brionmario-experimental/vite-plugin-oxygen-ui": "0.0.0",
+      "@brionmario-experimental/oxygen-ui-test-app": "0.0.0"
+    },
+    "changesets": [
+      "public-lions-march"
+    ]
+  }
+}

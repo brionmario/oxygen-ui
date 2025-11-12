@@ -18,4 +18,4 @@
 
 declare function oxygenUIPlugin(): any;
 
-declare module '@wso2/vite-plugin-oxygen-ui';
+declare module '@brionmario-experimental/vite-plugin-oxygen-ui';

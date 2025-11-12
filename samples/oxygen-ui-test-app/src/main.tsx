@@ -16,7 +16,7 @@
  * under the License.
  */
 
-import { OxygenUIThemeProvider } from '@wso2/oxygen-ui'
+import { OxygenUIThemeProvider } from '@brionmario-experimental/oxygen-ui'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'

@@ -1,15 +1,15 @@
-# @wso2/oxygen-ui
+# @brionmario-experimental/oxygen-ui
 
 WSO2 Oxygen UI React component library - A comprehensive design system powered by Material-UI with TypeScript support.
 
 ## Installation
 
 ```bash
-npm install @wso2/oxygen-ui @emotion/react @emotion/styled @mui/material
+npm install @brionmario-experimental/oxygen-ui @emotion/react @emotion/styled @mui/material
 # or
-yarn add @wso2/oxygen-ui @emotion/react @emotion/styled @mui/material
+yarn add @brionmario-experimental/oxygen-ui @emotion/react @emotion/styled @mui/material
 # or
-pnpm add @wso2/oxygen-ui @emotion/react @emotion/styled @mui/material
+pnpm add @brionmario-experimental/oxygen-ui @emotion/react @emotion/styled @mui/material
 ```
 
 The Inter font (`@fontsource-variable/inter`) is included as a dependency and will be installed automatically.
@@ -19,17 +19,17 @@ The Inter font (`@fontsource-variable/inter`) is included as a dependency and wi
 Make sure to install the required peer dependencies:
 
 ```bash
-npm install react react-dom @emotion/react @emotion/styled @mui/material @mui/x-data-grid @mui/x-date-pickers @wso2/oxygen-ui-icons-react
+npm install react react-dom @emotion/react @emotion/styled @mui/material @mui/x-data-grid @mui/x-date-pickers @brionmario-experimental/oxygen-ui-icons-react
 ```
 
 ## Usage
 
 ### Material-UI Components
 
-Import and use Material-UI components directly from `@wso2/oxygen-ui`:
+Import and use Material-UI components directly from `@brionmario-experimental/oxygen-ui`:
 
 ```typescript
-import { Box, Button, Stack, TextField } from '@wso2/oxygen-ui';
+import { Box, Button, Stack, TextField } from '@brionmario-experimental/oxygen-ui';
 
 function MyComponent() {
   return (
@@ -50,7 +50,7 @@ import {
   OxygenUIThemeProvider, 
   ColorSchemeToggle, 
   Layout 
-} from '@wso2/oxygen-ui';
+} from '@brionmario-experimental/oxygen-ui';
 
 function App() {
   return (
@@ -69,7 +69,7 @@ function App() {
 Data Grid components are exported as a namespace to avoid naming conflicts:
 
 ```typescript
-import { DataGrid } from '@wso2/oxygen-ui';
+import { DataGrid } from '@brionmario-experimental/oxygen-ui';
 
 // Destructure the components you need
 const { 
@@ -103,7 +103,7 @@ function MyDataGrid() {
 Date Picker components are exported as a namespace:
 
 ```typescript
-import { DatePickers } from '@wso2/oxygen-ui';
+import { DatePickers } from '@brionmario-experimental/oxygen-ui';
 
 // Destructure the components you need
 const { 
@@ -132,7 +132,7 @@ function MyDatePicker() {
 Chart components are exported as a namespace:
 
 ```typescript
-import { Charts } from '@wso2/oxygen-ui';
+import { Charts } from '@brionmario-experimental/oxygen-ui';
 
 // Destructure the chart components you need
 const { LineChart, BarChart, PieChart } = Charts;
@@ -161,7 +161,7 @@ function MyChart() {
 Tree View components are exported as a namespace:
 
 ```typescript
-import { TreeView } from '@wso2/oxygen-ui';
+import { TreeView } from '@brionmario-experimental/oxygen-ui';
 
 // Destructure the tree components you need
 const { SimpleTreeView, TreeItem } = TreeView;
@@ -207,8 +207,8 @@ All components from `@mui/material` are re-exported directly.
 This package includes full TypeScript definitions. All types from Material-UI and MUI X are also available:
 
 ```typescript
-import type { ButtonProps, BoxProps } from '@wso2/oxygen-ui';
-import { DataGrid } from '@wso2/oxygen-ui';
+import type { ButtonProps, BoxProps } from '@brionmario-experimental/oxygen-ui';
+import { DataGrid } from '@brionmario-experimental/oxygen-ui';
 
 const { GridColDef } = DataGrid;
 type MyGridColDef = typeof GridColDef;
