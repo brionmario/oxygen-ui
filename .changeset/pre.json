@@ -4,7 +4,11 @@
   "initialVersions": {
     "@brionmario-experimental/eslint-plugin-oxygen-ui": "0.0.0",
     "@brionmario-experimental/oxygen-ui": "0.0.0",
-    "@brionmario-experimental/oxygen-ui-icons-react": "0.0.0"
+    "@brionmario-experimental/oxygen-ui-icons-react": "0.0.0",
+    "@brionmario-experimental/vite-plugin-oxygen-ui": "0.0.0",
+    "@brionmario-experimental/oxygen-ui-test-app": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "public-lions-march"
+  ]
 }
