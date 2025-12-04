@@ -1,5 +1,15 @@
 # @wso2/oxygen-ui-icons-react
 
+## 0.0.1-alpha.6
+
+### Patch Changes
+
+- [#402](https://github.com/wso2/oxygen-ui/pull/402) [`ccc48f9`](https://github.com/wso2/oxygen-ui/commit/ccc48f9dedd3661e5fe559d0359258c33e971a55) Thanks [@brionmario](https://github.com/brionmario)! - Trigger `@wso2/oxygen-ui-icons-react` release
+
+- [#400](https://github.com/wso2/oxygen-ui/pull/400) [`88627d6`](https://github.com/wso2/oxygen-ui/commit/88627d6d3c4525562ae2f57509b22fe2ba8e13d7) Thanks [@brionmario](https://github.com/brionmario)! - Bump depedencies
+
+- [`5410eb5`](https://github.com/wso2/oxygen-ui/commit/5410eb57b84c4d38985e2e641dbfa6b3d4d5d0a2) Thanks [@brionmario](https://github.com/brionmario)! - Trigger release
+
 ## 0.0.1-alpha.5
 
 ### Patch Changes
